@@ -29,6 +29,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   @include linkStyle;
+  margin-bottom: 200px;
 }
 
 .bold {
@@ -94,6 +95,12 @@ h5 {
   margin-bottom: 20px;
 }
 
+.weekday-toggle {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
 .monday-work {
   display: none;
 }
@@ -144,4 +151,17 @@ h5 {
 
 .course-list {
   @include noBulletList;
+}
+
+.col-md-9 {
+  ul {
+    li {
+      list-style-type: disc;
+    }
+    ul {
+      li {
+        list-style-type: circle;
+      }
+    }
+  }
 }

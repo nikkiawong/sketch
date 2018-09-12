@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 200px;
 }
 body a {
   color: black;
@@ -72,6 +73,10 @@ h5 {
   margin-bottom: 20px;
 }
 
+.weekday-toggle:hover {
+  cursor: pointer;
+}
+
 .monday-work {
   display: none;
 }
@@ -132,6 +137,13 @@ h5 {
 .course-list li {
   list-style-type: none;
   line-height: 30px;
+}
+
+.col-md-9 ul li {
+  list-style-type: disc;
+}
+.col-md-9 ul ul li {
+  list-style-type: circle;
 }
 
 /*# sourceMappingURL=output.css.map */
