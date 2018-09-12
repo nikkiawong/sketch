@@ -18,6 +18,8 @@ body a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
   padding-bottom: 10px;
   align-items: center;
   border-bottom: 1px solid #DFDFDF;
@@ -58,6 +60,10 @@ h5 {
   font-size: 25px;
 }
 
+.course-content {
+  margin: 0 600px;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -73,6 +79,7 @@ h5 {
 
 .breadcrumb {
   border-bottom: 1px solid #DFDFDF;
+  background-color: white;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -89,16 +96,21 @@ h5 {
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 100px;
 }
 .row li {
   list-style-type: none;
   line-height: 30px;
 }
 
+.course {
+  margin-bottom: 100px;
+}
+
 .weekly-schedule {
-  margin-left: 500px;
+  margin-top: 60px;
+}
+.weekly-schedule .row {
+  margin-bottom: 60px;
 }
 
 .row2 {
@@ -106,25 +118,11 @@ h5 {
   flex-direction: row;
   justify-content: space-between;
   margin: 0 200px;
-  margin-bottom: 60px;
   align-items: baseline;
 }
 .row2 li {
   list-style-type: none;
   line-height: 30px;
-}
-
-.week-work {
-  width: 600px;
-}
-
-#pre-work-list {
-  display: flex;
-  flex-direction: column;
-  margin-left: -15px;
-}
-#pre-work-list a {
-  margin-bottom: 5px;
 }
 
 .course-list li {

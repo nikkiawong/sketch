@@ -37,6 +37,8 @@ body {
 .nav-bar {
   @include horizontalMenuStyle;
   justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
   img {
     height: 50px;
   }
@@ -82,6 +84,9 @@ h5 {
   font-size: 25px;
 }
 
+.course-content {
+  margin: 0 600px;
+}
 .menu {
   @include horizontalMenuStyle;
   justify-content: space-around;
@@ -96,6 +101,7 @@ h5 {
 .breadcrumb {
   @include noBulletList;
   @include borderStyle;
+  background-color: white;
   padding: {
     top: 50px;
     bottom: 50px;
@@ -110,11 +116,17 @@ h5 {
 .row {
   @include horizontalMenuStyle;
   @include noBulletList;
-  justify-content: space-around;
+  // justify-content: space-around;
+}
+
+.course {
   margin-bottom: 100px;
 }
 .weekly-schedule {
-  margin-left: 500px;
+  margin-top: 60px;
+  .row {
+    margin-bottom: 60px;
+  }
 }
 
 .row2 {
@@ -122,22 +134,9 @@ h5 {
   @include noBulletList;
   justify-content: space-between;
   margin: 0 200px;
-  margin-bottom: 60px;
   align-items: baseline;
 }
 
-.week-work {
-  width: 600px;
-}
-
-#pre-work-list {
-  display: flex;
-  flex-direction: column;
-  margin-left: -15px;
-  a {
-    margin-bottom: 5px;
-  }
-}
 
 .course-list {
   @include noBulletList;
