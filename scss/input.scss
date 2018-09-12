@@ -1,3 +1,5 @@
+$teal: #009FA0;
+
 
 @mixin noBulletList {
   li {
@@ -35,6 +37,12 @@ body {
 .bold {
   font-weight: bold;
 }
+
+.teal {
+  color: $teal;
+  font-weight: bold;
+}
+
 .nav-bar {
   @include horizontalMenuStyle;
   justify-content: space-between;
@@ -85,6 +93,13 @@ h5 {
   font-size: 25px;
 }
 
+h6 {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  @include borderStyle;
+}
+
 .course-content {
   margin: 0 600px;
 }
@@ -92,12 +107,19 @@ h5 {
   @include horizontalMenuStyle;
   justify-content: space-around;
   @include borderStyle;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .weekday-toggle {
   &:hover {
     cursor: pointer;
+  }
+}
+
+.week-work {
+  a {
+    font-size: 18px;
   }
 }
 
@@ -128,6 +150,7 @@ h5 {
   @include horizontalMenuStyle;
   @include noBulletList;
   // justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .course {
@@ -154,6 +177,9 @@ h5 {
 }
 
 .col-md-9 {
+  h1 {
+    margin-bottom: 40px;
+  }
   ul {
     li {
       list-style-type: disc;
@@ -166,6 +192,18 @@ h5 {
   }
 }
 
-#tab-content {
+#tab-headers {
   @include noBulletList;
+}
+
+.caret {
+  width: 10px;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+.tab-content {
+  margin-top: 30px;
 }
