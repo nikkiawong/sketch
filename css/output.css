@@ -146,4 +146,9 @@ h5 {
   list-style-type: circle;
 }
 
+#tab-content li {
+  list-style-type: none;
+  line-height: 30px;
+}
+
 /*# sourceMappingURL=output.css.map */

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/output.css" type="text/css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="nav-bar">
+        <div class="logo">
+          <a href="index.html"><img src="https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57cf3de246c3c4d2933aa57c/1529949737992/?format=1500w" alt=""></a>
+        </div>
+        <div class="search">
+          <img id="magnifying" src="img/search-icon.png" alt="">
+          <input type="text" name="" value="" placeholder="Search...">
+        </div>
+      </div>
+      <div class="main-body">
+        <div class="breadcrumb">
+          <ul>
+            <li><a href="index.html">Courses</a></li>
+            <li>></li>
+            <li><span class="bold">Intro to Programming</span></li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="row">
+                <div class="weekday-toggle col-md-12">
+                  <h3>Weekend <span class="caret"></span></h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="weekday-toggle" id="monday">
+                    <h3>Monday <span class="caret"></span></h3>
+                  </div>
+                  <div class="monday-work">
+                    <ul>
+                      <li><a href="">Journaling at Epicodus</a></li>
+                      <li><a href="">Week One Journal Prompt</a></li>
+                      <li><a href="">Practice: Git Project Setup</a></li>
+                      <li><a href="">Practice: Tracking Changes with Git</a></li>
+                      <li><a href="">Practice: Github Remote Repositories</a></li>
+                      <li><a href="">Practice: Command Line, Git, Github</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row">
+                <div class="weekday-toggle col-md-12">
+                  <h3>Tuesday <span class="caret"></span></h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="weekday-toggle col-md-12">
+                  <h3>Wednesday <span class="caret"></span></h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="weekday-toggle col-md-12">
+                  <h3>Thursday <span class="caret"></span></h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="weekday-toggle col-md-12">
+                  <h3>Friday <span class="caret"></span></h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9" id="tab-content">
+
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">home</div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Hey hey hey </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Yooo</div>
+              </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

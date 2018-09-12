@@ -165,3 +165,7 @@ h5 {
     }
   }
 }
+
+#tab-content {
+  @include noBulletList;
+}
