@@ -1,0 +1,82 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body a {
+  color: black;
+  text-decoration: none;
+}
+body a:hover {
+  color: #009FA0;
+  text-decoration: none;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  align-items: center;
+  border-bottom: 1px solid #DFDFDF;
+}
+.nav-bar img {
+  height: 50px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  border: 0px;
+}
+
+#magnifying {
+  height: 25px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid #DFDFDF;
+  margin-bottom: 20px;
+}
+
+.jump-start li {
+  list-style-type: none;
+  line-height: 30px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.row li {
+  list-style-type: none;
+  line-height: 30px;
+}
+
+.course-list li {
+  list-style-type: none;
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=output.css.map */

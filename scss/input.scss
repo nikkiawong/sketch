@@ -1,0 +1,99 @@
+
+@mixin noBulletList {
+  li {
+    list-style-type: none;
+    line-height: 30px;
+  }
+}
+
+@mixin horizontalMenuStyle {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin borderStyle {
+  border-bottom: 1px solid #DFDFDF;
+}
+
+@mixin linkStyle {
+  a {
+    color: black;
+    text-decoration: none;
+    &:hover {
+      color: #009FA0;
+      text-decoration: none;
+    }
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  @include linkStyle;
+}
+
+.nav-bar {
+  @include horizontalMenuStyle;
+  justify-content: space-between;
+  img {
+    height: 50px;
+  }
+  padding-bottom: 10px;
+  align-items: center;
+  @include borderStyle;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  input {
+    border: 0px;
+  }
+}
+
+#magnifying {
+  height: 25px;
+  margin-right: 10px;
+}
+
+h1 {
+  font: {
+    weight: normal;
+    size: 22px;
+  }
+}
+
+h2 {
+  font: {
+    size: 28px;
+    weight: 600;
+  }
+}
+
+h3 {
+  font: {
+    weight: normal;
+    size: 18px;
+  }
+}
+
+.menu {
+  @include horizontalMenuStyle;
+  justify-content: space-around;
+  @include borderStyle;
+  margin-bottom: 20px;
+}
+
+.jump-start {
+  @include noBulletList;
+}
+
+.row {
+  @include horizontalMenuStyle;
+  @include noBulletList;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.course-list {
+  @include noBulletList;
+}
