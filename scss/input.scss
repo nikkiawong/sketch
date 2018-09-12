@@ -31,6 +31,9 @@ body {
   @include linkStyle;
 }
 
+.bold {
+  font-weight: bold;
+}
 .nav-bar {
   @include horizontalMenuStyle;
   justify-content: space-between;
@@ -75,6 +78,9 @@ h3 {
     size: 18px;
   }
 }
+h5 {
+  font-size: 25px;
+}
 
 .menu {
   @include horizontalMenuStyle;
@@ -87,11 +93,50 @@ h3 {
   @include noBulletList;
 }
 
+.breadcrumb {
+  @include noBulletList;
+  @include borderStyle;
+  padding: {
+    top: 50px;
+    bottom: 50px;
+  }
+  li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 32px;
+  }
+}
+
 .row {
   @include horizontalMenuStyle;
   @include noBulletList;
   justify-content: space-around;
   margin-bottom: 100px;
+}
+.weekly-schedule {
+  margin-left: 500px;
+}
+
+.row2 {
+  @include horizontalMenuStyle;
+  @include noBulletList;
+  justify-content: space-between;
+  margin: 0 200px;
+  margin-bottom: 60px;
+  align-items: baseline;
+}
+
+.week-work {
+  width: 600px;
+}
+
+#pre-work-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: -15px;
+  a {
+    margin-bottom: 5px;
+  }
 }
 
 .course-list {
