@@ -41,6 +41,9 @@ body a:hover {
 .search input {
   border: 0px;
 }
+.search input:focus {
+  outline: none;
+}
 
 #magnifying {
   height: 25px;
