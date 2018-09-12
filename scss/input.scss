@@ -94,6 +94,10 @@ h5 {
   margin-bottom: 20px;
 }
 
+.monday-work {
+  display: none;
+}
+
 .jump-start {
   @include noBulletList;
 }

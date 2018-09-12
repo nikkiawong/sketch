@@ -72,6 +72,10 @@ h5 {
   margin-bottom: 20px;
 }
 
+.monday-work {
+  display: none;
+}
+
 .jump-start li {
   list-style-type: none;
   line-height: 30px;
