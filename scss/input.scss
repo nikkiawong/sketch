@@ -159,12 +159,20 @@ h6 {
 .course {
   margin-bottom: 100px;
 }
+
 .weekly-schedule {
   margin-top: 60px;
   .row {
     margin-bottom: 60px;
   }
 }
+
+// @media screen and (max-width: 850px) {
+//   .weekly-schedule {
+//     display: flex;
+//     flex-direction: column;
+//   }
+// }
 
 .row2 {
   @include horizontalMenuStyle;
@@ -210,5 +218,3 @@ h6 {
 .tab-content {
   margin-top: 30px;
 }
-
-// @media screen and
