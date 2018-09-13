@@ -197,4 +197,11 @@ h6 {
   margin-top: 30px;
 }
 
+.tab-pane img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
 /*# sourceMappingURL=output.css.map */
