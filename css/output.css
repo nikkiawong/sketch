@@ -185,6 +185,10 @@ h6 {
   line-height: 30px;
 }
 
+.fadein {
+  opacity: 0;
+}
+
 .caret {
   width: 10px;
 }
