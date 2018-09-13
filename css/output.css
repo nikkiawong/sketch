@@ -11,6 +11,16 @@ body a:hover {
   text-decoration: none;
 }
 
+::selection {
+  background: #009FA0;
+  color: white;
+}
+
+::-moz-selection {
+  background: #009FA0;
+  color: white;
+}
+
 .bold {
   font-weight: bold;
 }

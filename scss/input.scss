@@ -34,6 +34,16 @@ body {
   margin-bottom: 200px;
 }
 
+::selection {
+  background: $teal;
+  color: white;
+}
+
+::-moz-selection {
+  background: $teal;
+  color: white;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -167,13 +177,6 @@ h6 {
   }
 }
 
-// @media screen and (max-width: 850px) {
-//   .weekly-schedule {
-//     display: flex;
-//     flex-direction: column;
-//   }
-// }
-
 .row2 {
   @include horizontalMenuStyle;
   @include noBulletList;
@@ -181,7 +184,6 @@ h6 {
   margin: 0 200px;
   align-items: baseline;
 }
-
 
 .course-list {
   @include noBulletList;
